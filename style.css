@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    background-color: aqua;
+    color: blue;
+}
+.bgimage{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+.bgimage-text{
+    position: absolute;
+    top: 20%;
+    transform: translate(30%, 40%);
+}
+.bgimage-text p{
+    width: 700px;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+}
+.Fruit-1{
+    width: 280px;
+    height: 180px;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+}
+image{
+    width: 100px;
+    height: 100px;
+}
+ .box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding-top: 20px;
+}
+.About{
+    text-align: center;
+}
+.p{
+    text-align: justify;
+}
